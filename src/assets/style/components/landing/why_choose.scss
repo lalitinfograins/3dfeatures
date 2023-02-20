@@ -1,0 +1,83 @@
+section.why_choose_wrap {
+    padding: 40px 0;
+    overflow-y: hidden;
+
+.why_choose_box  {
+        padding: 40px 30px 35px 30px;
+        color: #fff;
+        border: solid 1px #ffffff37;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 414px 1px #1f232f inset;
+        border-radius: 10px;
+        position: relative;
+        width: 80%;
+        text-align: center;
+        display: flex;
+        margin: 1em auto;
+        padding: 2rem;
+        flex-direction: column;
+        min-height: 250px;
+figure.why_choose_box_image {
+    width: 50px;
+    margin: 0 auto;
+    img.why_choose_box_img {
+        max-width: 100%;
+        height: auto;
+        transition: all 0.4s ease;
+    }
+    img.why_choose_box_img:hover {
+        -webkit-transform: translate3d(0,-5%,0) translate3d(0,-5px,0);
+        transform: translate3d(0,-5%,0) translate3d(0,-5px,0);
+    }
+}
+.why_choose_box_content {
+    margin-top: 1rem;
+}
+h3.why_choose_box_h3 {
+    font-size: 22px;
+}
+a.why_choose_box_btn {
+    color: #fff;
+    text-decoration: none;
+}
+a.why_choose_box_btn:hover {
+    color: #9aa0a7;
+    text-decoration: none;
+}
+p.why_choose_box_p {
+    color: #9aa0a7;
+    font-size: 14px;
+}
+}
+.why_choose_box:hover {
+    color: #fff;
+    border: solid 1px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(224deg, #1dcffc, #ac01ff);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 414px 1px #1f232f inset;
+    border-radius: 10px;
+    position: relative;
+}
+.why_choose_title {
+    color: #fff;
+    padding: 10px 30px;
+    text-align: center;
+
+    h5.why_choose_title_p {
+        font-size: 22px;
+            background: radial-gradient(at top right, #1dcffc 50%, #ac01ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 600;
+
+    }
+    h2.why_choose_title_h2 {
+        font-weight: 600;
+        font-size: 42px;
+    }
+    p.why_choose_title_p {
+        color: #9aa0a7;
+    }
+}
+}

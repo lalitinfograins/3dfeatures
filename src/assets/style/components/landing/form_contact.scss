@@ -1,0 +1,99 @@
+.form_contact_wrap {
+    background-image: url("../../../image/landing/contact1.png");
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-y: hidden;
+    width: 100%;
+    background-repeat: no-repeat;
+    padding: 7em 0 5em;
+    position: relative;
+    color: #fff;
+    .form_contact_title {
+        text-align: center;
+        padding-bottom: 2rem;
+        color: #fff;
+        h2.form_contact_h2 {
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+    }
+    .form_contact_box {
+        background: #0a1329;
+        padding: 1rem 3rem;
+        border-radius: 20px;
+        box-shadow: 0 0 48px 0 #060606ad;
+        position: relative;
+
+        .form_contact_image {
+            background: #273557;
+            margin: 0.5rem 0;
+            border-radius: 20px;
+            height: 96%;
+            position: relative;
+            padding: 2rem;
+            overflow: hidden;
+            z-index: 9;
+            .form_contact_h3 {
+                font-size: 20px;
+            }
+        }
+        .form_contact_image:before {
+            background-color: #1f2a44;
+            border-radius: 50%;
+            bottom: -8%;
+            content: "";
+            height: 150px;
+            position: absolute;
+            right: -8%;
+            width: 150px;
+            z-index: -7;
+        }
+        .form_contact_form {
+            margin-left: 4rem;
+                width: 100%;
+        }
+        .form-floating {
+            width: 100%;
+            border-radius: none;
+        }
+        .input_field {
+            background: none;
+            width: 100%;
+            border: 0;
+            border-bottom: 1px solid #fff;
+            border-radius: 0;
+            color: #fff;
+        }
+        .s_btn.btn.btn-primary {
+            border: none;
+            box-shadow: 0 0 24px 0 #000;
+            color: #fff;
+            text-decoration: none;padding: 10px 30px ;
+            color: #fff;
+            border: solid 1px transparent;
+            background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(224deg, #1dcffc, #ac01ff);
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+            box-shadow: 2px 414px 1px #09112b inset;
+        }
+      
+        .s_btn.btn.btn-primary:hover {
+            text-decoration: none;
+            padding: 10px 30px ;
+            color: #fff;
+            border: solid 1px transparent;
+            background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(224deg, #1dcffc, #ac01ff);
+            background-origin: border-box;
+            background-clip: content-box, border-box;
+            border-radius: 10px;
+            box-shadow: none;
+            position: relative;
+        }
+}
+}
+.input_field:focus {
+    outline: none !important;
+    box-shadow: none;
+    border-bottom: 1px solid #fff !important;
+    
+}

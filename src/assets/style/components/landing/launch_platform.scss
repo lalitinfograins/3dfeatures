@@ -1,0 +1,96 @@
+section.launch_platform_wrap {
+    padding-bottom: 50px;
+    overflow-y: hidden;
+}
+.launch_platform_title {
+    padding-bottom: 40px;
+    text-align: center;
+    color: #fff;
+    .launch_platform_h4 {
+        background: radial-gradient(at top right, #1dcffc 25%, #ac01ff 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: 600;
+    }
+    h2.launch_platform_h2 {
+        font-size: 2.5rem;
+    }
+}
+.flip_card{
+    background-color: transparent;
+    height: 330px;
+    margin: 0 auto 40px;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    width: 300px;
+}
+
+.flip_card:hover .flip_card_inner{
+    transform: rotateY(180deg);
+}
+
+.flip_card_inner{
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.16);
+    height: 100%;
+    position: relative;
+    text-align: center;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    transition: -webkit-transform .6s;
+    transition: transform .6s;
+    transition: transform .6s,-webkit-transform .6s;
+    width: 100%;
+}
+
+.flip_card_img {
+    background: linear-gradient(198deg, rgba(0, 0, 0, 0.62), rgba(0, 5, 69, 0.686));
+    height: 100%;
+    border-radius: 5px;
+    height: 330px;
+    width: 310px;
+}
+.flip_card_front, .flip_card_back{
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+
+.flip_card_front{
+    align-items: center;
+    background-position: 50%!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    border-radius: 20px;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.flip_card_back{
+    background: var(--color-2);
+    transform: rotateY(180deg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.flip_title {
+    position: absolute;
+    text-align: center;
+}
+.flip_card_back .title_h3{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.flip_card_back, .flip_card_front, .flip_text{
+    color: white;
+    font-size: 1rem;
+}

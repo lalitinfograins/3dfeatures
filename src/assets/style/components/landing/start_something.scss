@@ -1,0 +1,49 @@
+section.start_something_wrap {
+    padding: 50px 0 100px 0;
+    overflow-y: hidden;
+    position: relative;
+    .start_something_details {
+        position: relative;
+        color: #fff;
+        display: inline-block;
+        padding-top: 5rem;
+    
+    h2.start_something_heading {
+        font-size: 3rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+    p.start_something_text {
+        color: #c7c7c7;
+        margin-bottom: 3rem;
+    }
+    a.start_something_link {
+        color: #fff;
+        text-decoration: none;padding: 10px 30px ;
+        color: #fff;
+        border: solid 1px transparent;
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(224deg, #1dcffc, #ac01ff);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 414px 1px #09112b inset;
+        border-radius: 10px;
+        position: relative;
+    }
+    a.start_something_link:hover {
+        text-decoration: none;
+        padding: 10px 30px ;
+        color: #fff;
+        border: solid 1px transparent;
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(224deg, #1dcffc, #ac01ff);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        border-radius: 10px;
+        box-shadow: none;
+        position: relative;
+    }
+}
+.start_something_img.img-fluid {
+    height: 500px;
+    margin-left: 3rem;
+}
+}

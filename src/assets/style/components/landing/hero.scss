@@ -1,0 +1,93 @@
+section.hero_wrap {
+    padding: 6rem 0 3rem;
+    overflow-y: hidden;
+    position: relative;
+
+    .hero_content {
+        padding-top: 5rem;
+        color: #fff;
+        span.hero_span {
+            font-size: 22px;
+            background: radial-gradient(at top right, #1dcffc 25%, #ac01ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 600;
+        }
+        h1.hero_heading {
+            font-weight: 700;
+            font-size: 3.5rem;
+            line-height: 4rem;
+            letter-spacing: 2px;
+            margin-bottom: 1rem;
+        span.hero_span_h1 {
+            background: radial-gradient(at top right, #1dcffc 30%, #ac01ff 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+    .hero_text {
+        margin-bottom: 2rem;
+    }
+}
+    img.hero_img.img-fluid {
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+    a.hero_btn {
+        color: #fff;
+        text-decoration: none;padding: 10px 30px ;
+        color: #fff;
+        border: solid 1px transparent;
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(224deg, #1dcffc, #ac01ff);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        box-shadow: 2px 414px 1px #09112b inset;
+        border-radius: 10px;
+        position: relative;
+    }
+    a.hero_btn:hover {
+        text-decoration: none;
+        padding: 10px 30px ;
+        color: #fff;
+        border: solid 1px transparent;
+        background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(224deg, #1dcffc, #ac01ff);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+        border-radius: 10px;
+        box-shadow: none;
+        position: relative;
+    }
+    
+}
+
+@media screen and (max-width:992px) {
+    section.hero_wrap {
+        padding: 4rem 0 3rem;
+        .hero_content {
+            padding-top: 0rem;
+            span.hero_span {
+                font-size: 18px;
+            }
+            h1.hero_heading {
+                font-weight: 700;
+                font-size: 2rem;
+                line-height: 2rem;
+                letter-spacing: 2px;
+                margin-bottom: 1rem;
+        }
+        .hero_text {
+            margin-bottom: 2rem;
+        }
+    }
+        img.hero_img.img-fluid {
+            position: relative;
+            width: 100%;
+            height: auto;
+            padding-top: 2rem;
+            align-items: center;
+            text-align: center;
+        }
+        
+    }
+}
